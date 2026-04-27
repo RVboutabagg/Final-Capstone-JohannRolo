@@ -31,26 +31,7 @@ function Home({ onNavigate }) {
         <p className="text-gray-700 text-sm mb-4">
           Track, report, and advocate for better roads in Oakland.
         </p>
-        <div className="flex justify-center gap-3 flex-wrap">
-          <button
-            onClick={() => onNavigate("Report")}
-            className="bg-gray-900 text-white text-sm font-semibold px-4 py-2 rounded-lg hover:bg-gray-700 transition-colors"
-          >
-            Report a Pothole
-          </button>
-          <button
-            onClick={() => onNavigate("Donate")}
-            className="bg-white text-gray-900 text-sm font-semibold px-4 py-2 rounded-lg hover:bg-gray-100 transition-colors border border-gray-300"
-          >
-            Donate
-          </button>
-          <button
-            onClick={() => onNavigate("About")}
-            className="bg-white text-gray-900 text-sm font-semibold px-4 py-2 rounded-lg hover:bg-gray-100 transition-colors border border-gray-300"
-          >
-            About Us
-          </button>
-        </div>
+        
       </div>
 
       
